@@ -108,7 +108,7 @@ for row in range(2,line+1):
 
 chart.set_size({'width':876,'height':287})
 
-worksheet.insert_chart(line + 7,0,chart)
+worksheet.insert_chart(line + 7,0,chart) ####在数据表下第7行插入图表
 
 workbook.close()
 
