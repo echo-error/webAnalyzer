@@ -50,10 +50,11 @@ title =  [ URL,
           u'HTTP状态码',
           u'DNS解析时间',
           u'建立连接时间',
-           u'传输结束总用时',
-           u'下载数据包大小',
-           u'HTTP头部大小',
-           u'下载速度' ]
+          u'传输结束总用时',
+          u'下载数据包大小',
+          u'HTTP头部大小',
+          u'下载速度'
+           ]
 
 format = workbook.add_format()
 format.set_border(1)
